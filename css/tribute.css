@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(36, 19, 77);
+    text-align: justify;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+#tribute_link{
+    font-size: 25px;
+    color: rgb(0, 86, 199);
+}
+#tribute-link:visited{
+    color: rgb(253, 148, 206);
+}
+#tribute-link:hover{
+    color: rgb(49, 252, 127);
+    font-size: 30px;
+}
+#title{
+    font-size: 50px;
+    align-content: center;
+    text-align: center;
+    
+    margin: auto;
+}
+#img-caption{
+   
+    font-size: 35px;
+}
+#tribute-info{
+    text-align: justify;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 25px;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+
+    
+}
+
+
+#img-div{
+    max-width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 90px;
+    
+
+}
+
+.row {
+
+  /* Prevent vertical gaps */
+  line-height: 0;
+    
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;  
+  margin: auto;
+  
+  
+}
+
+.row img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  
+}
